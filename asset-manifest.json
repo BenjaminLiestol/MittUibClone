@@ -1,17 +1,15 @@
 {
   "files": {
-    "main.css": "/Mitt-Uib-Clone/static/css/main.354de9ac.chunk.css",
-    "main.js": "/Mitt-Uib-Clone/static/js/main.a204552f.chunk.js",
-    "main.js.map": "/Mitt-Uib-Clone/static/js/main.a204552f.chunk.js.map",
-    "runtime-main.js": "/Mitt-Uib-Clone/static/js/runtime-main.ca524b21.js",
-    "runtime-main.js.map": "/Mitt-Uib-Clone/static/js/runtime-main.ca524b21.js.map",
-    "static/js/2.16fb913d.chunk.js": "/Mitt-Uib-Clone/static/js/2.16fb913d.chunk.js",
-    "static/js/2.16fb913d.chunk.js.map": "/Mitt-Uib-Clone/static/js/2.16fb913d.chunk.js.map",
-    "static/js/3.97963489.chunk.js": "/Mitt-Uib-Clone/static/js/3.97963489.chunk.js",
-    "static/js/3.97963489.chunk.js.map": "/Mitt-Uib-Clone/static/js/3.97963489.chunk.js.map",
+    "main.css": "/Mitt-Uib-Clone/static/css/main.f2251798.chunk.css",
+    "main.js": "/Mitt-Uib-Clone/static/js/main.c45aa7fa.chunk.js",
+    "main.js.map": "/Mitt-Uib-Clone/static/js/main.c45aa7fa.chunk.js.map",
+    "runtime-main.js": "/Mitt-Uib-Clone/static/js/runtime-main.d547ed8a.js",
+    "runtime-main.js.map": "/Mitt-Uib-Clone/static/js/runtime-main.d547ed8a.js.map",
+    "static/js/2.0ab715b5.chunk.js": "/Mitt-Uib-Clone/static/js/2.0ab715b5.chunk.js",
+    "static/js/2.0ab715b5.chunk.js.map": "/Mitt-Uib-Clone/static/js/2.0ab715b5.chunk.js.map",
     "index.html": "/Mitt-Uib-Clone/index.html",
-    "static/css/main.354de9ac.chunk.css.map": "/Mitt-Uib-Clone/static/css/main.354de9ac.chunk.css.map",
-    "static/js/2.16fb913d.chunk.js.LICENSE.txt": "/Mitt-Uib-Clone/static/js/2.16fb913d.chunk.js.LICENSE.txt",
+    "static/css/main.f2251798.chunk.css.map": "/Mitt-Uib-Clone/static/css/main.f2251798.chunk.css.map",
+    "static/js/2.0ab715b5.chunk.js.LICENSE.txt": "/Mitt-Uib-Clone/static/js/2.0ab715b5.chunk.js.LICENSE.txt",
     "static/media/cor101.6107f309.jpg": "/Mitt-Uib-Clone/static/media/cor101.6107f309.jpg",
     "static/media/cor102.61817489.jpeg": "/Mitt-Uib-Clone/static/media/cor102.61817489.jpeg",
     "static/media/cor103.80655997.jpeg": "/Mitt-Uib-Clone/static/media/cor103.80655997.jpeg",
@@ -24,9 +22,9 @@
     "static/media/uib_logo.b4ccc586.png": "/Mitt-Uib-Clone/static/media/uib_logo.b4ccc586.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.ca524b21.js",
-    "static/js/2.16fb913d.chunk.js",
-    "static/css/main.354de9ac.chunk.css",
-    "static/js/main.a204552f.chunk.js"
+    "static/js/runtime-main.d547ed8a.js",
+    "static/js/2.0ab715b5.chunk.js",
+    "static/css/main.f2251798.chunk.css",
+    "static/js/main.c45aa7fa.chunk.js"
   ]
 }
