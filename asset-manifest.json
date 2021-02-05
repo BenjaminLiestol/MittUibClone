@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Mitt-Uib-Clone/static/css/main.f2251798.chunk.css",
-    "main.js": "/Mitt-Uib-Clone/static/js/main.05b8d84e.chunk.js",
-    "main.js.map": "/Mitt-Uib-Clone/static/js/main.05b8d84e.chunk.js.map",
+    "main.js": "/Mitt-Uib-Clone/static/js/main.1d2f3244.chunk.js",
+    "main.js.map": "/Mitt-Uib-Clone/static/js/main.1d2f3244.chunk.js.map",
     "runtime-main.js": "/Mitt-Uib-Clone/static/js/runtime-main.d547ed8a.js",
     "runtime-main.js.map": "/Mitt-Uib-Clone/static/js/runtime-main.d547ed8a.js.map",
-    "static/js/2.0ab715b5.chunk.js": "/Mitt-Uib-Clone/static/js/2.0ab715b5.chunk.js",
-    "static/js/2.0ab715b5.chunk.js.map": "/Mitt-Uib-Clone/static/js/2.0ab715b5.chunk.js.map",
+    "static/js/2.5225c3e9.chunk.js": "/Mitt-Uib-Clone/static/js/2.5225c3e9.chunk.js",
+    "static/js/2.5225c3e9.chunk.js.map": "/Mitt-Uib-Clone/static/js/2.5225c3e9.chunk.js.map",
     "index.html": "/Mitt-Uib-Clone/index.html",
     "static/css/main.f2251798.chunk.css.map": "/Mitt-Uib-Clone/static/css/main.f2251798.chunk.css.map",
-    "static/js/2.0ab715b5.chunk.js.LICENSE.txt": "/Mitt-Uib-Clone/static/js/2.0ab715b5.chunk.js.LICENSE.txt",
+    "static/js/2.5225c3e9.chunk.js.LICENSE.txt": "/Mitt-Uib-Clone/static/js/2.5225c3e9.chunk.js.LICENSE.txt",
     "static/media/cor101.6107f309.jpg": "/Mitt-Uib-Clone/static/media/cor101.6107f309.jpg",
     "static/media/cor102.61817489.jpeg": "/Mitt-Uib-Clone/static/media/cor102.61817489.jpeg",
     "static/media/cor103.80655997.jpeg": "/Mitt-Uib-Clone/static/media/cor103.80655997.jpeg",
@@ -23,8 +23,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.d547ed8a.js",
-    "static/js/2.0ab715b5.chunk.js",
+    "static/js/2.5225c3e9.chunk.js",
     "static/css/main.f2251798.chunk.css",
-    "static/js/main.05b8d84e.chunk.js"
+    "static/js/main.1d2f3244.chunk.js"
   ]
 }
