@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Mitt-Uib-Clone/static/css/main.f2251798.chunk.css",
-    "main.js": "/Mitt-Uib-Clone/static/js/main.5a6fbc1e.chunk.js",
-    "main.js.map": "/Mitt-Uib-Clone/static/js/main.5a6fbc1e.chunk.js.map",
+    "main.js": "/Mitt-Uib-Clone/static/js/main.fc68dfc3.chunk.js",
+    "main.js.map": "/Mitt-Uib-Clone/static/js/main.fc68dfc3.chunk.js.map",
     "runtime-main.js": "/Mitt-Uib-Clone/static/js/runtime-main.d547ed8a.js",
     "runtime-main.js.map": "/Mitt-Uib-Clone/static/js/runtime-main.d547ed8a.js.map",
     "static/js/2.5225c3e9.chunk.js": "/Mitt-Uib-Clone/static/js/2.5225c3e9.chunk.js",
@@ -25,6 +25,6 @@
     "static/js/runtime-main.d547ed8a.js",
     "static/js/2.5225c3e9.chunk.js",
     "static/css/main.f2251798.chunk.css",
-    "static/js/main.5a6fbc1e.chunk.js"
+    "static/js/main.fc68dfc3.chunk.js"
   ]
 }
