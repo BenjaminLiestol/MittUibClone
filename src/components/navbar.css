@@ -1,0 +1,12 @@
+.navbar {
+    background: '#e60e10';
+    height: 5vh;
+}
+.logo {
+    width: 15%;
+    padding: 10px;
+}
+
+.nav {
+    padding-bottom: 100px;
+}
