@@ -23,23 +23,28 @@ import Paper from "@material-ui/core/Paper";
 
 const useStyles = makeStyles({
   root: {
-    maxWidth: 500,
+    maxWidth: 650,
   },
   media: {
     height: 140,
   },
   fullgrid: {
-    paddingLeft: 500,
+    paddingLeft: 150,
     paddingTop: 10,
   },
   semigrid: {
-    paddingLeft: 0,
+    paddingLeft: 100,
     paddingTop: 10,
     maxwidth: 100,
   },
   row: {
     paddingBottom: 30,
   },
+  footer: {
+    position: "fixed",
+    bottom: 0,
+    width: "100vw",
+  }
 });
 
 function createData(topic: string, lecture: string, seminar: string) {
@@ -61,9 +66,9 @@ const teach = [
 export default function Cor1001() {
   const classes = useStyles();
   return (
-    <div classname="classes">
+    <div class="classes">
       <Grid container>
-        <Grid item xs="6" className={classes.fullgrid}>
+        <Grid item xs="7" className={classes.fullgrid}>
           <Grid container>
             <Card className={classes.root}>
               <CardActionArea>
@@ -89,10 +94,10 @@ export default function Cor1001() {
                 </CardContent>
               </CardActionArea>
               <CardActions>
-                <IconButton>
+                <IconButton a href="/announcement1">
                   <AnnouncementIcon />
                 </IconButton>
-                <IconButton>
+                <IconButton a href="/assignment1">
                   <AssignmentLateIcon />
                 </IconButton>
                 <IconButton>
@@ -102,7 +107,7 @@ export default function Cor1001() {
             </Card>
           </Grid>
         </Grid>
-        <Grid item xs="2" className={classes.semigrid}>
+        <Grid item xs="4" className={classes.semigrid}>
           <TableContainer component={Paper}>
             <Table className={classes.table} aria-label="simple table">
               <TableHead>
@@ -126,7 +131,7 @@ export default function Cor1001() {
             </Table>
           </TableContainer>
         </Grid>
-        <Grid item xs="12" className="footer">
+        <Grid item xs="12" className={classes.footer}>
           <TableContainer component={Paper}>
             <Table className={classes.table} aria-label="simple table">
               <TableHead>

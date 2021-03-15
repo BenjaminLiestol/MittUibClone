@@ -1,4 +1,5 @@
 import "./Classes.css";
+import { NavLink } from "react-router-dom";
 import Cor101 from "./Images/cor101.jpg";
 import Cor102 from "./Images/cor102.jpeg";
 import Cor103 from "./Images/cor103.jpeg";
@@ -34,14 +35,21 @@ const useStyles = makeStyles({
     maxWidth: 500,
   },
   media: {
-    height: 140,
+    height: 100,
   },
   fullgrid: {
     paddingLeft: 100,
-    paddingTop: 10,
   },
   row: {
     paddingBottom: 30,
+    paddingRight: 20,
+  },
+  card: {
+    paddingRight: 50,
+  },
+  footer: {
+    paddingLeft: 50,
+    paddingRight: 50,
   },
 });
 
@@ -58,38 +66,40 @@ const rows = [
 export default function MediaCard() {
   const classes = useStyles();
   return (
-    <div classname="classes">
+    <div class="outerdiv">
       <Grid container>
         <Grid item xs="8" className={classes.fullgrid}>
           <Grid container>
             <Grid item xs="4" className={classes.row}>
               <Card className={classes.root}>
-                <CardActionArea href="course101">
-                  <CardMedia
-                    className={classes.media}
-                    image={Cor101}
-                    title="Course 101"
-                  />
-                  <CardContent>
-                    <Typography gutterBottom variant="h5" component="h2">
-                      Cor 101 - Course 1
-                    </Typography>
-                    <Typography
-                      variant="body2"
-                      color="textPrimary"
-                      component="p"
-                    >
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua.
-                    </Typography>
-                  </CardContent>
+                <CardActionArea>
+                    <CardMedia
+                      className={classes.media}
+                      image={Cor101}
+                      title="Course 101"
+                    />
+                    <CardContent>
+                      <Typography gutterBottom variant="h5" component="h2">
+                        Cor 101 - Course 1
+                      </Typography>
+                      <Typography
+                        variant="body2"
+                        color="textPrimary"
+                        component="p"
+                      >
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua.
+                      </Typography>
+                    </CardContent>
                 </CardActionArea>
                 <CardActions>
-                  <IconButton>
-                    <AnnouncementIcon />
-                  </IconButton>
-                  <IconButton>
+                  <NavLink exact to="/penisannouncement1" className={classes.link}>
+                    <IconButton>
+                      <AnnouncementIcon />
+                    </IconButton>
+                  </NavLink>
+                  <IconButton a href="/assignment1">
                     <AssignmentLateIcon />
                   </IconButton>
                   <IconButton>
@@ -98,9 +108,9 @@ export default function MediaCard() {
                 </CardActions>
               </Card>
             </Grid>
-            <Grid item xs="4">
+            <Grid item xs="4" className={classes.row}>
               <Card className={classes.root}>
-                <CardActionArea href="/course102">
+                <CardActionArea a href="/course102">
                   <CardMedia
                     className={classes.media}
                     image={Cor102}
@@ -122,10 +132,10 @@ export default function MediaCard() {
                   </CardContent>
                 </CardActionArea>
                 <CardActions>
-                  <IconButton>
+                  <IconButton a href="/announcement2">
                     <AnnouncementIcon />
                   </IconButton>
-                  <IconButton>
+                  <IconButton a href="/assignment2">
                     <AssignmentLateIcon />
                   </IconButton>
                   <IconButton>
@@ -158,10 +168,10 @@ export default function MediaCard() {
                   </CardContent>
                 </CardActionArea>
                 <CardActions>
-                  <IconButton>
+                  <IconButton a href="/announcement3">
                     <AnnouncementIcon />
                   </IconButton>
-                  <IconButton>
+                  <IconButton a href="/assignment3">
                     <AssignmentLateIcon />
                   </IconButton>
                   <IconButton>
@@ -196,10 +206,10 @@ export default function MediaCard() {
                   </CardContent>
                 </CardActionArea>
                 <CardActions>
-                  <IconButton>
+                  <IconButton a href="/announcement4">
                     <AnnouncementIcon />
                   </IconButton>
-                  <IconButton>
+                  <IconButton a href="/assignment4">
                     <AssignmentLateIcon />
                   </IconButton>
                   <IconButton>
@@ -208,7 +218,7 @@ export default function MediaCard() {
                 </CardActions>
               </Card>
             </Grid>
-            <Grid item xs="4">
+            <Grid item xs="4" className={classes.row}>
               <Card className={classes.root}>
                 <CardActionArea href="/course105">
                   <CardMedia
@@ -232,10 +242,10 @@ export default function MediaCard() {
                   </CardContent>
                 </CardActionArea>
                 <CardActions>
-                  <IconButton>
+                  <IconButton a href="/announcement5">
                     <AnnouncementIcon />
                   </IconButton>
-                  <IconButton>
+                  <IconButton a href="/assignment5">
                     <AssignmentLateIcon />
                   </IconButton>
                   <IconButton>
@@ -268,10 +278,10 @@ export default function MediaCard() {
                   </CardContent>
                 </CardActionArea>
                 <CardActions>
-                  <IconButton>
+                  <IconButton a href="/announcement6">
                     <AnnouncementIcon />
                   </IconButton>
-                  <IconButton>
+                  <IconButton a href="/assignment6">
                     <AssignmentLateIcon />
                   </IconButton>
                   <IconButton>
@@ -306,10 +316,10 @@ export default function MediaCard() {
                   </CardContent>
                 </CardActionArea>
                 <CardActions>
-                  <IconButton>
+                  <IconButton a href="/announcement7">
                     <AnnouncementIcon />
                   </IconButton>
-                  <IconButton>
+                  <IconButton a href="/assignment7">
                     <AssignmentLateIcon />
                   </IconButton>
                   <IconButton>
@@ -318,7 +328,7 @@ export default function MediaCard() {
                 </CardActions>
               </Card>
             </Grid>
-            <Grid item xs="4">
+            <Grid item xs="4" className={classes.row}>
               <Card className={classes.root}>
                 <CardActionArea href="/course108">
                   <CardMedia
@@ -342,10 +352,10 @@ export default function MediaCard() {
                   </CardContent>
                 </CardActionArea>
                 <CardActions>
-                  <IconButton>
+                  <IconButton a href="/announcement8">
                     <AnnouncementIcon />
                   </IconButton>
-                  <IconButton>
+                  <IconButton a href="/assignment8">
                     <AssignmentLateIcon />
                   </IconButton>
                   <IconButton>
@@ -378,10 +388,10 @@ export default function MediaCard() {
                   </CardContent>
                 </CardActionArea>
                 <CardActions>
-                  <IconButton>
+                  <IconButton a href="/announcement9">
                     <AnnouncementIcon />
                   </IconButton>
-                  <IconButton>
+                  <IconButton a href="/assignment9">
                     <AssignmentLateIcon />
                   </IconButton>
                   <IconButton>
@@ -392,7 +402,7 @@ export default function MediaCard() {
             </Grid>
           </Grid>
         </Grid>
-        <Grid item xs="3" className={classes.footer}>
+        <Grid item xs="4" className={classes.footer}>
           <TableContainer component={Paper}>
             <Table className={classes.table} aria-label="simple table">
               <TableHead>

@@ -1,5 +1,18 @@
 .footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+link,
+link:hover,
+link:focus,
+link:active {
+  text-decoration: none;
+  color: white;
+}
+.outerdiv {
+  padding-top: 10vh;
+}
+.classes {
+  padding-top: 5vh;
 }
